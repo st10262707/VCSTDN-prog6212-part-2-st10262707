@@ -1,0 +1,48 @@
+﻿@page
+@model MVC_prog6212_part_2.Views.IndexModel
+CMCS.Pages.VerifyClaimsModel
+@{
+    ViewData["Title"] = "Verify Claims";
+}
+
+<h2>Pending Claims</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Claim ID</th>
+            <th>Lecturer Name</th>
+            <th>Hours Worked</th>
+            <th>Hourly Rate</th>
+            <th>Additional Notes</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model.Claims)
+        {
+            <tr>
+                <td>@claim.ClaimID</td>
+                <td>@claim.LecturerName</td>
+                <td>@claim.HoursWorked</td>
+                <td>@claim.HourlyRate</td>
+                <td>@claim.AdditionalNotes</td>
+                <td>@claim.Status</td>
+                <td>
+                    <form method="post" asp-page-handler="Approve" asp-route-id="@claim.ClaimID">
+                        <button type="submit">Approve</button>
+                    </form>
+                    <form method="post" asp-page-handler="Reject" asp-route-id="@claim.ClaimID">
+                        <button type="submit">Reject</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (Model.Claims.Count == 0)
+{
+    <p>No pending claims to verify.</p>
+}

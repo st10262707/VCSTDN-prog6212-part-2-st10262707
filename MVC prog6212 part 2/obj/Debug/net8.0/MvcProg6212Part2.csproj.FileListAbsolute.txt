@@ -1,0 +1,7 @@
+C:\Users\lab_services_student\Source\Repos\VCSTDN-prog6212-part-2-st10262707\MVC prog6212 part 2\obj\Debug\net8.0\MvcProg6212Part2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lab_services_student\Source\Repos\VCSTDN-prog6212-part-2-st10262707\MVC prog6212 part 2\obj\Debug\net8.0\MvcProg6212Part2.AssemblyInfoInputs.cache
+C:\Users\lab_services_student\Source\Repos\VCSTDN-prog6212-part-2-st10262707\MVC prog6212 part 2\obj\Debug\net8.0\MvcProg6212Part2.AssemblyInfo.cs
+C:\Users\lab_services_student\Source\Repos\VCSTDN-prog6212-part-2-st10262707\MVC prog6212 part 2\obj\Debug\net8.0\MvcProg6212Part2.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\Source\Repos\VCSTDN-prog6212-part-2-st10262707\MVC prog6212 part 2\obj\Debug\net8.0\MvcProg6212Part2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lab_services_student\Source\Repos\VCSTDN-prog6212-part-2-st10262707\MVC prog6212 part 2\obj\Debug\net8.0\MvcProg6212Part2.RazorAssemblyInfo.cache
+C:\Users\lab_services_student\Source\Repos\VCSTDN-prog6212-part-2-st10262707\MVC prog6212 part 2\obj\Debug\net8.0\MvcProg6212Part2.RazorAssemblyInfo.cs

@@ -1,0 +1,35 @@
+﻿@page
+@model MVC_prog6212_part_2.Models.IndexModel
+@{
+}
+<!-- Pages/SubmitClaim.cshtml -->
+
+CMCS.Pages.SubmitClaimModel
+@{
+    ViewData["Title"] = "Submit Claim";
+}
+
+<h2>Submit Your Claim</h2>
+
+<form method="post">
+    <div>
+        <label asp-for="Claim.HoursWorked"></label>
+        <input asp-for="Claim.HoursWorked" />
+        <span asp-validation-for="Claim.HoursWorked" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Claim.HourlyRate"></label>
+        <input asp-for="Claim.HourlyRate" />
+        <span asp-validation-for="Claim.HourlyRate" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Claim.AdditionalNotes"></label>
+        <textarea asp-for="Claim.AdditionalNotes"></textarea>
+    </div>
+    
+    <button type="submit">Submit Claim</button>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,37 @@
+﻿<!-- Pages/SubmitClaim.cshtml -->
+@page
+@model CMCS.Pages.SubmitClaimModel
+@{
+    ViewData["Title"] = "Submit Claim";
+}
+
+<h2>Submit Your Claim</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <div>
+        <label asp-for="Claim.HoursWorked"></label>
+        <input asp-for="Claim.HoursWorked" />
+        <span asp-validation-for="Claim.HoursWorked" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Claim.HourlyRate"></label>
+        <input asp-for="Claim.HourlyRate" />
+        <span asp-validation-for="Claim.HourlyRate" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Claim.AdditionalNotes"></label>
+        <textarea asp-for="Claim.AdditionalNotes"></textarea>
+    </div>
+    
+    <!-- File Upload Section -->
+    <div>
+        <label>Supporting Document:</label>
+        <input type="file" name="SupportingDocument" accept=".pdf,.docx,.xlsx" />
+        <span>@Model.UploadedFileName</span> <!-- Display uploaded file name -->
+    </div>
+
+    <button type="submit">Submit Claim</button>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
