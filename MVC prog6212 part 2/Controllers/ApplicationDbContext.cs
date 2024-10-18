@@ -1,19 +1,21 @@
-﻿
+﻿using Microsoft.AspNetCore.Mvc;
+using MVC_prog6212_part_2.Models;
 
 namespace MvcProg6212Part2.Controllers
 {
-    public class ApplicationDbContext
+    public class SubmitClaimController : Controller
     {
-        public object Claims { get; internal set; }
-
-        internal void SaveChanges()
+        public IActionResult Index()
         {
-            throw new NotImplementedException();
+            return View();
         }
 
-        internal async Task SaveChangesAsync()
+        [HttpPost]
+        public IActionResult SubmitClaim(Claim claim, IFormFile supportingDocument)
         {
-            throw new NotImplementedException();
+            // Logic to handle claim submission and file upload
+            // Save claim and file to the database
+            return RedirectToAction("Index");
         }
     }
 }

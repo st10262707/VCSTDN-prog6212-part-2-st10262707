@@ -1,34 +1,29 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
-// Pages/VerifyClaims.cshtml.cs
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MvcProg6212Part2.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
-using Claim = Models.CMCS.Models.Claim;
 
 
-namespace MvcProg6212Part2.Controllers
+namespace MvcProg6212Part2.Models
 {
 
     public class VerifyClaimsModel : PageModel
     {
         private readonly ApplicationDbContext _context; // Assuming you have a DbContext for database access
-        private List<Models.CMCS.Models.Claim> claims;
+        private List<MVC_prog6212_part_2.Models.Claim> claims; // Use fully qualified name
 
         public VerifyClaimsModel(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        public List<Claim> Claims { get => claims; set => claims = value; }
+        public List<MVC_prog6212_part_2.Models.Claim> Claims { get => claims; set => claims = value; } // Use fully qualified name
 
         public void OnGet() =>
             // Load pending claims from the database (non-functional placeholder)
-            Claims = _context.Claims.Where(c => c.Status == "Pending")
-            .ToList();
+            Claims = _context.Claims.Where(c => c.Status == "Pending").ToList();
 
         public IActionResult OnPostApprove(int id)
         {
@@ -54,5 +49,5 @@ namespace MvcProg6212Part2.Controllers
             return RedirectToPage(); // Refresh the page to show updated claims
         }
     }
-
+    
 }
