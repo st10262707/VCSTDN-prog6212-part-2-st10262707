@@ -15,7 +15,7 @@ namespace MvcProg6212Part2.Controllers
             _context = context;
         }
 
-        public IActionResult Index() 
+        public IActionResult GetIndex()
         {
             return View();
         }

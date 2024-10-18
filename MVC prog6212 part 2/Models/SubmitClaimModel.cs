@@ -11,10 +11,7 @@ namespace MvcProg6212Part2.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        public SubmitClaimModel(ApplicationDbContext context)
-        {
-            _context = context;
-        }
+        public SubmitClaimModel(ApplicationDbContext context) => _context = context;
 
         [BindProperty]
         public MVC_prog6212_part_2.Models.Claim Claim { get; set; } // Use fully qualified name
