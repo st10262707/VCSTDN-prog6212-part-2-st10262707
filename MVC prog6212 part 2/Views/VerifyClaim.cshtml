@@ -1,13 +1,11 @@
-﻿@page
-@model MVC_prog6212_part_2.Views.IndexModel
-CMCS.Pages.VerifyClaimsModel
+﻿@model IEnumerable<MVC_prog6212_part_2.Models.Claim>
 @{
     ViewData["Title"] = "Verify Claims";
 }
 
-<h2>Pending Claims</h2>
+<h2>Verify Claims</h2>
 
-<table>
+<table class="table">
     <thead>
         <tr>
             <th>Claim ID</th>
@@ -15,12 +13,12 @@ CMCS.Pages.VerifyClaimsModel
             <th>Hours Worked</th>
             <th>Hourly Rate</th>
             <th>Additional Notes</th>
-            <th>Status</th>
+            <th>Supporting Document</th>
             <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var claim in Model.Claims)
+        @foreach (var claim in Model)
         {
             <tr>
                 <td>@claim.ClaimID</td>
@@ -28,12 +26,14 @@ CMCS.Pages.VerifyClaimsModel
                 <td>@claim.HoursWorked</td>
                 <td>@claim.HourlyRate</td>
                 <td>@claim.AdditionalNotes</td>
-                <td>@claim.Status</td>
+                <td><a href="@claim.SupportingDocumentPath">Download</a></td>
                 <td>
-                    <form method="post" asp-page-handler="Approve" asp-route-id="@claim.ClaimID">
+                    <form asp-action="Approve" method="post">
+                        <input type="hidden" name="id" value="@claim.Id" />
                         <button type="submit">Approve</button>
                     </form>
-                    <form method="post" asp-page-handler="Reject" asp-route-id="@claim.ClaimID">
+                    <form asp-action="Reject" method="post">
+                        <input type="hidden" name="id" value="@claim.Id" />
                         <button type="submit">Reject</button>
                     </form>
                 </td>

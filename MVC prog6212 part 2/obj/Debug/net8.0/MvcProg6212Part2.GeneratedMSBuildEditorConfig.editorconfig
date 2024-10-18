@@ -7,49 +7,57 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = MVC_prog6212_part_2
-build_property.RootNamespace = MVC_prog6212_part_2
-build_property.ProjectDir = C:\Users\lab_services_student\Source\Repos\VCSTDN-prog6212-part-2-st10262707\MVC prog6212 part 2\
+build_property.RootNamespace = MvcProg6212part2
+build_property.RootNamespace = MvcProg6212part2
+build_property.ProjectDir = /Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\lab_services_student\Source\Repos\VCSTDN-prog6212-part-2-st10262707\MVC prog6212 part 2
+build_property.MSBuildProjectDirectory = /Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/lab_services_student/Source/Repos/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Source/Repos/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Source/Repos/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Source/Repos/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Source/Repos/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/submitclaims.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3VibWl0Y2xhaW1zLmNzaHRtbA==
+[/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/SubmitClaim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VibWl0Q2xhaW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Source/Repos/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/VerifyClaim.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyaWZ5Q2xhaW0uY3NodG1s
+[/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/submitclaims.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Mvc3VibWl0Y2xhaW1zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Source/Repos/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/TrackClaim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhY2tDbGFpbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Source/Repos/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/VerifyClaim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVyaWZ5Q2xhaW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Source/Repos/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-n3hn9yr2dx
+[/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fs4nqq7pg1

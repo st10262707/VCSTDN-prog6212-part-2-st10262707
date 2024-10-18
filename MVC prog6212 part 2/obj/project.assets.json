@@ -8,32 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lab_services_student\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/asandilebuthelezi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lab_services_student\\source\\repos\\MVC prog6212 part 2\\MvcProg6212Part2.csproj",
+      "projectUniqueName": "/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/MvcProg6212Part2.csproj",
       "projectName": "MvcProg6212Part2",
-      "projectPath": "C:\\Users\\lab_services_student\\source\\repos\\MVC prog6212 part 2\\MvcProg6212Part2.csproj",
-      "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lab_services_student\\source\\repos\\MVC prog6212 part 2\\obj\\",
+      "projectPath": "/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/MvcProg6212Part2.csproj",
+      "packagesPath": "/Users/asandilebuthelezi/.nuget/packages/",
+      "outputPath": "/Users/asandilebuthelezi/Desktop/Thobzin/VCSTDN-prog6212-part-2-st10262707/MVC prog6212 part 2/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\lab_services_student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/asandilebuthelezi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -46,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -75,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/8.0.8_1/libexec/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

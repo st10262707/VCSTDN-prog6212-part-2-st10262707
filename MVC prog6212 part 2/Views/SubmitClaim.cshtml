@@ -1,0 +1,28 @@
+@model MVC_prog6212_part_2.Models.Claim
+@{
+    ViewData["Title"] = "Submit Claim";
+}
+
+<h2>Submit Your Claim</h2>
+
+<form asp-action="SubmitClaim" method="post" enctype="multipart/form-data">
+    <div>
+        <label asp-for="HoursWorked"></label>
+        <input asp-for="HoursWorked" />
+        <span asp-validation-for="HoursWorked" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="HourlyRate"></label>
+        <input asp-for="HourlyRate" />
+        <span asp-validation-for="HourlyRate" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="AdditionalNotes"></label>
+        <textarea asp-for="AdditionalNotes"></textarea>
+    </div>
+    <div>
+        <label>Supporting Document:</label>
+        <input type="file" name="supportingDocument" accept=".pdf,.docx,.xlsx" />
+    </div>
+    <button type="submit">Submit Claim</button>
+</form>
